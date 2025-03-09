@@ -54,7 +54,7 @@
 	6. Prompt：提示模板（给出视频知识大纲）
 
 ## 运行顺序
-0. 先配置auto-cut的环境
+0. 先配置auto-cut的环境, 配置srt_to_text 和 chat_rag的依赖。vidio文件夹放入个人需要处理的视频
 1. 命令行方式生成字幕文件
 2. 依次运行srt_to_text.py chat_rag.py (中间可以修改参数，记得用自己的apikey)
 3. 其中llm_video和simple_video是两个开发过程测试代码，无需在意
